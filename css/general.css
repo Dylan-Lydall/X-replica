@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  flex-direction: row;
+  font-family: Helvetica;
+  height: 3000px;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-left: 610px;
+}

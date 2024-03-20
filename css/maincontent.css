@@ -1,0 +1,249 @@
+#andrew {
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0;
+}
+
+#andrew-container {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#andrew-container:hover #andrew{
+  text-decoration: underline;
+}
+
+#andrewat {
+  color: grey;
+}
+
+.bottom-half {
+  display: flex;
+  padding-left: 40px;
+  margin-top: 0px;
+}
+
+.bottom-half button {
+  align-items: center;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin: 8px;
+  transition: background-color 0.2s;
+  width: 40px;
+}
+
+.bottom-half button:hover {
+  background-color: rgb(42, 42, 42);
+}
+
+.bottom-half div {
+  position: relative;
+}
+
+.bottom-half div button p {
+  background-color: rgb(61, 61, 67);
+  border-radius: 2px;
+  bottom:-30px;
+  color: white;
+  opacity: 0;
+  padding: 2px 6px;
+  position: absolute; 
+  pointer-events: none;
+}
+
+.bottom-half div button:hover p {
+  opacity: 1;
+  transition: opacity 0.2s 0.8s;
+}
+
+.bottom-half img {
+  height: 36px;
+  width: 36px;
+}
+
+.extra-details {
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+  z-index: 10;
+}
+
+.extra-details img {
+  height: 70px;
+  margin: 10px;
+  width: 70px;
+}
+
+.information {
+  color: white;
+}
+
+.information a,
+.information span{
+  color: rgb(0, 123, 255);
+  text-decoration: none;
+}
+
+.line {
+  border-left: 2px solid rgb(68, 68, 68);
+  margin-left: 35px;
+  flex: 1;
+}
+
+.left-side-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side-post img{
+  height: 50px;
+  padding-left: 10px;
+  width: 50px;
+}
+
+.make-tweet {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+#post-button2 {
+  background-color: rgb(59, 137, 161);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+  margin-left: 140px;
+  padding:  4px 16px;
+  width: auto;
+}
+
+.right-side-post {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.showposts {
+  align-items: center;
+  border-bottom: 1px solid rgb(68, 68, 68);
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.showposts:hover {
+  background-color: rgb(14, 14, 14);
+}
+
+.showposts p {
+  color: rgb(0, 140, 255);
+}
+
+.top-extra-details {
+  align-items: center;
+  display: flex;
+}
+
+.top-extra-details button {
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: absolute;
+}
+
+.top-half {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-half p {
+  color: grey;
+  display: inline-block
+}
+
+.top-right-side-post {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline-settings {
+  height: 50px;
+  width: 50px;
+}
+
+.timeline-settings button {
+  border-radius: 15px;
+  height: 30px;
+  margin: 10px;
+  width: 30px;
+}
+
+.timeline-settings img {
+  margin: -8px;
+}
+
+#tripledot {
+  color: grey;
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+#trwimage {
+  margin-left: -4px;
+  width: 100%;
+}
+
+.tweets {
+  background-color: black;
+  border-left: 1px solid rgb(68, 68, 68);
+  border-right: 1px solid rgb(68, 68, 68);
+  display: flex;
+  flex-direction: column;
+  min-width: 598px;
+  width: 598px;
+}
+
+.tweets-header {
+  border-bottom: 1px solid rgb(68, 68, 68); 
+  display: flex;
+  flex-direction: row;
+}
+
+.tweets-header button {
+  background-color: black;
+  border: none;
+  color: grey;
+  flex: 1;
+  transition: background-color 0.2s;
+}
+
+.tweets-header button:hover {
+  background-color: rgb(42, 42, 42);
+}
+
+#verified,
+#trwsymbol {
+  height: 20px;
+  margin: 2px;
+  width: 20px;
+}
